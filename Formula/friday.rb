@@ -6,28 +6,28 @@
 class Friday < Formula
   desc "Terminal AI coding agent — animated TUI, multi-provider, tool-calling"
   homepage "https://github.com/katipally/friday-code"
-  version "2.0.10" # rendered from the release tag at publish time
+  version "2.0.11" # rendered from the release tag at publish time
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/katipally/friday-code/releases/download/v#{version}/friday-darwin-arm64"
-      sha256 "d387e4e72fd432a9da9979118f64e992252eaca2f53172da8cda084ad838b22a"
+      sha256 "86a0f5623c9890dfde43a1f0de221e52f17a1d97f4ae7c7bd4d20b2e7fa8b3a7"
     end
     on_intel do
       url "https://github.com/katipally/friday-code/releases/download/v#{version}/friday-darwin-x64"
-      sha256 "b8b470c5ceb7b1634e8dfff247f9935b3c8bba9d38d8eef74209c42209021e78"
+      sha256 "9826633f9ee7c910fe9d4bf2be7710e16539f3b0c54bec4c855f7f9ff1ed9eda"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/katipally/friday-code/releases/download/v#{version}/friday-linux-arm64"
-      sha256 "893f02cddd19c46c31ef46908601cccb812f6274faf98202aaff7db1d60ab9e8"
+      sha256 "306dad0db8e43a1da280798f742dbf029eab0161537485016081abaf3491173c"
     end
     on_intel do
       url "https://github.com/katipally/friday-code/releases/download/v#{version}/friday-linux-x64"
-      sha256 "57694acd1d0deb495e595fb745ed49d2031a75e92372211f78d9a2c85711b5bd"
+      sha256 "d3e9679ccbe725af873bcee120b76444ebebf5a933fc421451d3d052f7039afa"
     end
   end
 
